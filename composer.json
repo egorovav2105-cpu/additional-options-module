@@ -1,0 +1,14 @@
+{
+    "name": "egorov2105/additional.options",
+    "type": "bitrix-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Egorov Aleksandr",
+            "email": "egorov2105@inbox.ru"
+        }
+    ],
+    "require": {
+        "composer/installers": "~1"
+    }
+}
