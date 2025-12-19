@@ -11,7 +11,7 @@ Loader::includeModule('dihouse.options');
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/include/prolog_admin_after.php");
 
 if($_REQUEST["mess"] == "ok"){
-    CAdminMessage::ShowMessage(array("MESSAGE"=>"Данные сохранены", "TYPE"=>"OK"));
+    CAdminMessage::ShowMessage(array("MESSAGE"=>"Данные успешно сохранены", "TYPE"=>"OK"));
 }
 if($_REQUEST["mess"] == "error") {
     CAdminMessage::ShowMessage(array("MESSAGE" => "Ошибка записи свойств", "TYPE" => "ERROR"));
