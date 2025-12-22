@@ -16,7 +16,7 @@ if($_REQUEST["mess"] == "ok"){
 if($_REQUEST["mess"] == "error") {
     CAdminMessage::ShowMessage(array("MESSAGE" => "Ошибка записи свойств", "TYPE" => "ERROR"));
 }
-
+$siteId = 's1';
 if($_GET['SITE_ID']){
     $siteId = $_GET['SITE_ID'];
 }else{
